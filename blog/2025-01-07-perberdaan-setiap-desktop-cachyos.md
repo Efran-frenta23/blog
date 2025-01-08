@@ -1,3 +1,8 @@
+---
+title: perbedaan opsi file iso cachyos
+---
+
+
 pada saat mau mendownload cachyos kamu akan diberikan pilihan direct,sourceforge,checksum, dan signature 
 
 berikut adalah perbedaan nya
@@ -15,7 +20,7 @@ SourceForge adalah platform hosting file yang sering digunakan oleh proyek open 
 Checksum adalah kode yang dihasilkan dari proses hash (seperti MD5, SHA256, atau SHA512) untuk memverifikasi integritas file yang diunduh. Dengan membandingkan checksum file yang kamu unduh dengan checksum yang disediakan oleh CachyOS, kamu bisa memastikan bahwa file yang diunduh tidak rusak atau dimodifikasi.
 Setelah mengunduh file ISO, kamu dapat menggunakan perintah berikut di terminal untuk memeriksa checksum (misalnya, menggunakan SHA256):
 ```py
-("sha256sum namafile.iso")
+sha256sum namafile.iso
 ```
 Bandingkan hasilnya dengan checksum yang diberikan di website untuk memastikan file aman.
 
