@@ -1,5 +1,5 @@
 ---
-title: install cachyos
+title: mengatasi masalah saat proses download/boot
 ---
 
 
@@ -12,19 +12,19 @@ Berikut adalah cara untuk mengatasi masalah ini:
 1. Nonaktifkan Secure Boot di BIOS/UEFI
 Cara paling umum untuk mengatasi masalah ini adalah dengan menonaktifkan Secure Boot. Berikut langkah-langkahnya:
 
-Restart Komputer
+- Restart Komputer
 Saat komputer mulai menyala, tekan tombol yang sesuai untuk masuk ke BIOS/UEFI. Tombol ini biasanya F2, DEL, ESC, atau F10 (tergantung merek komputer kamu). Saat booting, biasanya ada instruksi singkat di layar yang menyebutkan tombol apa yang harus ditekan untuk masuk ke BIOS atau Setup.
 
-Masuk ke Pengaturan Secure Boot
+- Masuk ke Pengaturan Secure Boot
 Setelah masuk ke BIOS/UEFI, navigasikan ke pengaturan Boot atau Security. Di dalam menu ini, cari opsi Secure Boot.
 
-Nonaktifkan Secure Boot
+- Nonaktifkan Secure Boot
 Ubah status Secure Boot dari Enabled menjadi Disabled. Ini memungkinkan komputer untuk menjalankan sistem operasi yang tidak memiliki tanda tangan yang diperlukan oleh Secure Boot.
 
-Simpan Pengaturan dan Keluar
+- Simpan Pengaturan dan Keluar
 Setelah menonaktifkan Secure Boot, simpan pengaturan dengan menekan tombol yang sesuai (biasanya ada instruksi di BIOS untuk "Save and Exit"). Komputer kemudian akan restart.
 
-Boot dari USB atau Media Instalasi
+- Boot dari USB atau Media Instalasi
 Sekarang, coba lagi boot dari USB atau media instalasi CachyOS. Sistem seharusnya bisa boot tanpa masalah sekarang.
 
 2. Menggunakan Shim (Opsi Alternatif)
