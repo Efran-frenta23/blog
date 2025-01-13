@@ -27,6 +27,8 @@ Setelah menonaktifkan Secure Boot, simpan pengaturan dengan menekan tombol yang 
 - Boot dari USB atau Media Instalasi
 Sekarang, coba lagi boot dari USB atau media instalasi CachyOS. Sistem seharusnya bisa boot tanpa masalah sekarang.
 
+[link tutorial youtube](https://youtu.be/fhOodF4QfAU?si=6A2N5Cqjdg1fIo1v)
+
 2. Menggunakan Shim (Opsi Alternatif)
 Jika kamu ingin tetap menggunakan Secure Boot, beberapa distribusi Linux menggunakan alat bernama Shim untuk memungkinkan booting di sistem dengan Secure Boot diaktifkan. Namun, tidak semua distribusi Linux mendukung ini, jadi pastikan untuk memeriksa apakah CachyOS mendukung Secure Boot menggunakan Shim.
 
