@@ -2,46 +2,314 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Selamat Datang di Dalang.io Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Dokumentasi resmi untuk **Dalang.io** - Cloud Hosting Rebel dari Indonesia.
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## Tentang Dalang.io
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Dalang.io** adalah penyedia cloud hosting dan infrastruktur lokal Indonesia yang beroperasi di bawah badan hukum **PT Mashanz Sumber Terbuka** dan **PT Komponen Pusat Data**. 
 
-### What you'll need
+Kami memposisikan diri sebagai **"cloud hosting rebels"** yang menawarkan solusi enterprise dengan biaya **84.5% lebih murah** dibandingkan provider cloud besar lainnya, dengan mengedepankan pendekatan *"from local, for local, by local"* dan server yang di-host di Indonesia.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Visi Kami
 
-## Generate a new site
+Menyediakan infrastruktur cloud yang terjangkau, performant, dan mudah diakses untuk bisnis lokal Indonesia, dengan dukungan dari tim engineer yang siap membantu secara langsung - bukan bot.
 
-Generate a new Docusaurus site using the **classic template**.
+---
 
-The classic template will automatically be added to your project after you run the command:
+## Produk & Layanan Kami
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Dalang.io menawarkan berbagai solusi infrastruktur dan software:
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 🖥️ Cloud Computing (VPS)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Virtual Private Server dengan konfigurasi yang bisa disesuaikan:
+- **CPU, RAM, Storage, Bandwidth** - Konfigurasi sesuai kebutuhan
+- **Pay-as-you-go** - Bayar sesuai pemakaian
+- **Diskon hingga 15%** untuk komitmen 1 tahun
+- **Harga mulai dari Rp 80.000/bulan**
 
-## Start your site
+**Contoh Pricing:**
+- 2 Core CPU, 4 GB RAM, 20 GB Storage, 20 Mbps = **Rp 84.360/bulan** (paket 3 bulan)
 
-Run the development server:
+### 🔧 Dedicated Servers (Baremetal)
 
-```bash
-cd my-website
-npm run start
-```
+Server fisik privat dengan resource 100% dedicated:
+- **Root access penuh** - Kontrol total atas server
+- **Hingga 16 TB storage**
+- **Hingga 768 GB RAM**
+- **Tidak ada resource sharing** dengan user lain
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### 🌐 Managed Services
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Layanan managed untuk berbagai kebutuhan:
+- **DevSecOps as a Service** - Keamanan dan operasional dikelola tim ahli
+- **Managed Data Center Cluster** - Infrastruktur data center terkelola
+- **One-Click Deploy Hosting** - Deploy aplikasi dengan satu klik
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### 🎭 WayangOS
+
+Sistem operasi Linux ultra-minimal terbaru dari Dalang.io:
+- **Boot time < 2 detik**
+- **Hanya butuh 64 MB RAM**
+- **Ukuran ISO 20 MB**
+- Dirancang khusus untuk **appliance dan kios**
+
+**Aplikasi di WayangOS:**
+- **WayangPOS** - Point of Sale untuk retail
+- **WayangGates** - Sistem kontrol akses
+- **WayangDCIEM** - Dive Computer Interface
+- **WayangZeroClient** - Thin Client Solution
+
+### 🤖 Dalang CLI
+
+Command-line tool untuk manajemen infrastruktur dengan AI:
+- **Autonomous AI Agents** - AI yang bisa provision infrastruktur secara otomatis
+- **Self-replication** - AI bisa mereplikasi diri untuk manage resource
+- **Resource Management** - Kelola resource cloud via command line
+
+---
+
+## Target Market Kami
+
+Dalang.io melayani berbagai sektor:
+
+| Sektor | Kebutuhan |
+|--------|-----------|
+| **Perusahaan Tumbuh** | Bisnis yang outgrow shared hosting |
+| **Finansial & Perbankan** | Infrastruktur aman, compliant, isolated |
+| **E-Commerce** | Handle traffic spike dan flash sale |
+| **Healthcare** | Penyimpanan rekam medis yang aman dan compliant |
+| **Gaming & Media** | Low-latency streaming dan game server |
+| **Data-Heavy Operations** | Analytics, AI models, big data |
+| **AI Developers** | Autonomous AI agents untuk infrastructure |
+| **Pasar Lokal** | Bisnis Indonesia yang prefer data residency lokal |
+| **Penelitian** | Akademisi butuh resource data center cost-effective |
+
+---
+
+## Value Proposition Dalang.io
+
+### 💰 Cost Efficiency
+
+**84.5% lebih murah** dari provider cloud besar. Dengan harga mulai Rp 80.000/bulan, kamu bisa mendapatkan VPS dengan spesifikasi yang cukup untuk menjalankan aplikasi produksi.
+
+### 🇮🇩 Localization
+
+- **Server di Indonesia** - Latency rendah untuk user lokal
+- **Support lokal** - Tim support yang mengerti konteks bisnis Indonesia
+- **Data residency** - Data tetap di dalam negeri, compliant dengan regulasi
+
+### ⚡ Performance & Control
+
+- **Dedicated resources** - Tidak ada sharing resource dengan user lain
+- **Full root access** - Kontrol penuh atas servermu
+- **Handle traffic tinggi** - Infrastruktur yang siap untuk traffic spike
+
+### 🔒 Security
+
+- **Integrated DevSecOps** - Keamanan terintegrasi di setiap layer
+- **Isolated environment** - Lingkungan terisolasi untuk data sensitif
+- **Compliance-ready** - Siap untuk berbagai requirement compliance
+
+### 🚀 Innovation
+
+- **AI Agent Support** - Infrastruktur untuk autonomous AI agents
+- **WayangOS** - OS ultra-lightweight untuk specialized hardware
+- **Continuous development** - Produk dan fitur baru yang terus dikembangkan
+
+### 🤝 Flexibility
+
+- **Konfigurasi custom** - Sesuaikan resource dengan kebutuhan
+- **Berbagai pilihan payment** - Monthly, quarterly, yearly
+- **Free consultation** - Konsultasi gratis untuk konfigurasi server
+
+---
+
+## 🌍 Fitur Global & Enterprise
+
+Dalang.io kini mendukung kebutuhan bisnis global dan enterprise dengan fitur-fitur berikut:
+
+### 🌐 Multi-Region Deployment
+
+**Deploy server di berbagai lokasi di seluruh dunia:**
+
+- **Indonesia** - Jakarta, Surabaya (low latency untuk user lokal)
+- **Southeast Asia** - Singapore, Malaysia, Thailand
+- **Asia Pacific** - Japan, Australia, India
+- **Europe** - Frankfurt, London, Amsterdam
+- **Americas** - US (East & West Coast), Brazil
+
+**Keuntungan Multi-Region:**
+- ✅ **Global Reach** - Deploy server dekat dengan user di mana pun mereka berada
+- ✅ **Redundancy** - Backup dan disaster recovery across regions
+- ✅ **Compliance** - Data residency compliant dengan regulasi lokal (GDPR, dll)
+- ✅ **Low Latency** - User experience lebih baik dengan server yang lebih dekat
+- ✅ **Load Balancing** - Distribusi traffic across multiple regions
+
+### 💳 International Payment
+
+**Metode pembayaran dari seluruh dunia:**
+
+**Payment Methods:**
+- ✅ **Credit/Debit Card** - Visa, Mastercard, American Express, JCB
+- ✅ **PayPal** - Bayar dengan akun PayPal
+- ✅ **Wire Transfer** - Transfer bank internasional (SWIFT)
+- ✅ **Cryptocurrency** - Bitcoin, Ethereum, USDT (coming soon)
+- ✅ **IDR Transfer** - Transfer bank lokal Indonesia
+- ✅ **E-Wallet** - GoPay, OVO, Dana, ShopeePay
+
+**Multi-Currency Support:**
+- 🇮🇩 **IDR** - Rupiah Indonesia
+- 🇺🇸 **USD** - US Dollar
+- 🇪🇺 **EUR** - Euro
+- 🇸🇬 **SGD** - Singapore Dollar
+- Dan mata uang lainnya
+
+**Keuntungan International Payment:**
+- ✅ **No FX Hassle** - Bayar dalam mata uang lokal kamu
+- ✅ **Flexible** - Pilih metode pembayaran yang paling nyaman
+- ✅ **Secure** - Semua transaksi diproses dengan enkripsi tinggi
+- ✅ **Invoice** - Invoice resmi untuk keperluan accounting
+
+### 🏢 Enterprise Ready
+
+**Solusi infrastruktur untuk enterprise:**
+
+**Fitur Enterprise:**
+- ✅ **SLA Guarantee** - 99.99% uptime guarantee dengan credit backup
+- ✅ **Dedicated Support** - Dedicated account manager dan 24/7 priority support
+- ✅ **Custom Infrastructure** - Infrastruktur yang di-custom untuk kebutuhan spesifik
+- ✅ **Private Cloud** - Private cloud deployment untuk isolasi penuh
+- ✅ **Hybrid Cloud** - Integrasi dengan on-premise infrastructure
+- ✅ **Compliance** - Ready untuk ISO 27001, SOC 2, GDPR, HIPAA, dll
+- ✅ **Security** - Advanced security features (DDoS protection, WAF, encryption)
+- ✅ **Scalability** - Auto-scaling untuk handle traffic spike
+- ✅ **Backup & DR** - Automated backup dan disaster recovery solution
+- ✅ **Monitoring** - Advanced monitoring dan alerting system
+
+**Enterprise Use Cases:**
+- 🏦 **Perbankan** - Core banking, mobile banking, payment gateway
+- 🏥 **Healthcare** - Electronic health records, telemedicine
+- 🛒 **E-Commerce** - Marketplace, flash sale, inventory management
+- 🎮 **Gaming** - Game server, matchmaking, leaderboard
+- 📺 **Media & Streaming** - Video streaming, CDN, live broadcast
+- 🏭 **Manufacturing** - IoT, supply chain, ERP system
+- 🎓 **Education** - LMS, online learning, research computing
+- 🚀 **Startup** - Scalable infrastructure untuk growth
+
+**Enterprise Support:**
+- 📞 **24/7 Phone Support** - Hubungi kami kapan saja
+- 💬 **Priority Chat** - Respon dalam < 5 menit
+- 📧 **Dedicated Email** - Support ticket dengan priority handling
+- 👨‍💻 **On-site Support** - Tim engineer bisa datang ke lokasi (untuk enterprise plan)
+- 📚 **Training** - Training dan workshop untuk tim IT kamu
+
+---
+
+## Kenapa Memilih Dalang.io?
+
+### 🆚 Perbandingan dengan Provider Lain
+
+| Aspek | Dalang.io | Provider Besar |
+|-------|-----------|----------------|
+| **Harga** | 84.5% lebih murah | Premium pricing |
+| **Lokasi Server** | Indonesia + Multi-region | Biasanya Singapore/US |
+| **Support** | Direct engineer access | Bot/automated response |
+| **Bahasa Support** | Bahasa Indonesia & English | English only |
+| **Payment** | IDR, USD, Transfer Lokal & International | USD, Credit Card |
+| **Latency (Indonesia)** | < 10ms | 50-150ms |
+| **Enterprise Ready** | ✅ Ya | ✅ Ya |
+
+### 🎯 Kapan Memilih Dalang.io?
+
+✅ **Pilih Dalang.io jika:**
+- Target user kamu di Indonesia
+- Butuh latency rendah untuk user lokal
+- Ingin biaya cloud yang lebih efisien
+- Prefer support dalam Bahasa Indonesia atau English
+- Butuh data residency di Indonesia
+- Ingin konsultasi langsung dengan engineer
+- Butuh deployment multi-region
+- Perlu payment metode internasional
+- Mencari solusi enterprise-ready
+
+❌ **Pertimbangkan provider lain jika:**
+- Sudah terikat kontrak dengan provider lain
+- Butuh fitur yang sangat spesifik dan proprietary
+
+---
+
+## Cara Memulai
+
+### 1. Explorasi Produk
+
+Kunjungi [dalang.io](https://dalang.io) untuk melihat detail produk dan pricing.
+
+### 2. Konsultasi Gratis
+
+Tim Dalang.io menyediakan **konsultasi gratis** untuk membantu kamu memilih konfigurasi server yang tepat.
+
+### 3. Deploy Server
+
+Setelah memilih konfigurasi, deploy server bisa dilakukan dalam hitungan menit.
+
+### 4. Support & Maintenance
+
+Tim support Dalang.io siap membantu 24/7 untuk berbagai kendala teknis.
+
+---
+
+## Kontak & Support
+
+### 📧 Email Support
+Hubungi tim support kami melalui email untuk berbagai pertanyaan teknis.
+
+### 💬 Live Chat
+Chat langsung dengan engineer untuk respon cepat.
+
+### 📚 Dokumentasi
+Dokumentasi lengkap tersedia di sini untuk membantu kamu menggunakan produk Dalang.io.
+
+### 🌐 Website
+[dalang.io](https://dalang.io)
+
+---
+
+## Legal & Compliance
+
+Dalang.io beroperasi di bawah:
+- **PT Mashanz Sumber Terbuka**
+- **PT Komponen Pusat Data**
+
+Kedua entitas ini memastikan operasional Dalang.io compliant dengan regulasi Indonesia.
+
+---
+
+## Komunitas
+
+Bergabung dengan komunitas Dalang.io:
+- Diskusi teknis
+- Tips dan trik
+- Update produk terbaru
+- Networking dengan user lain
+
+---
+
+## Kesimpulan
+
+Dalang.io adalah pilihan tepat untuk bisnis Indonesia yang mencari:
+- ✅ Cloud hosting dengan harga terjangkau
+- ✅ Server lokasi Indonesia untuk latency rendah
+- ✅ Support lokal yang responsif
+- ✅ Infrastruktur yang scalable
+- ✅ Solusi inovatif seperti WayangOS dan AI Agents
+
+**"Cloud Hosting Rebels - From Local, For Local, By Local"**
+
+---
+
+> **Note:** Dokumentasi ini akan terus diperbarui seiring dengan perkembangan produk dan layanan Dalang.io. Bookmark halaman ini untuk update terbaru!
