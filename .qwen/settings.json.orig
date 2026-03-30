@@ -3,9 +3,7 @@
     "allow": [
       "Bash(npm run *)",
       "Bash(mv *)",
-      "Bash(rm *)",
-      "WebFetch(dalang.io)"
+      "Bash(rm *)"
     ]
-  },
-  "$version": 3
+  }
 }
