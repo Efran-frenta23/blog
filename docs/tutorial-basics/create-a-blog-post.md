@@ -121,9 +121,10 @@ Pilih OS sesuai aplikasi kamu:
 
 Pilih data center terdekat dengan target user:
 
-- **User Indonesia:** Jakarta atau Surabaya
-- **User Southeast Asia:** Singapore
-- **User Global:** Multi-region deployment
+- **Jakarta** - Data Center Tier III, konektivitas tinggi
+- **Surabaya** - Data Center Tier III, redundancy
+
+> **Tips:** Pilih region yang paling dekat dengan target user kamu untuk latency optimal! Untuk user Indonesia, kedua data center ini memberikan latency < 10ms.
 
 ### 1.4 Konfigurasi Tambahan
 

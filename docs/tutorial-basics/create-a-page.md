@@ -74,22 +74,21 @@ Bayangkan sebuah gedung apartemen:
 - **Snapshot Backup** - Backup otomatis harian/mingguan
 - **Isolated Environment** - Tidak ada resource sharing dengan user lain
 
-### 🌍 Multi-Region Deployment
+### 🇮🇩 Data Center Indonesia
 
-Deploy VPS kamu di berbagai lokasi:
+**Lokasi strategis di Indonesia:**
 
-**Indonesia:**
-- 🇮🇩 Jakarta (Data Center Tier III)
-- 🇮🇩 Surabaya (Data Center Tier III)
+- 🇮🇩 **Jakarta** - Data Center Tier III dengan konektivitas tinggi
+- 🇮🇩 **Surabaya** - Data Center Tier III untuk redundancy
 
-**International:**
-- 🇸🇬 Singapore
-- 🇯🇵 Tokyo, Japan
-- 🇺🇸 US (East & West Coast)
-- 🇩🇪 Frankfurt, Germany
-- 🇬🇧 London, UK
+**Keuntungan Data Center Indonesia:**
+- ✅ **Low Latency** - < 10ms untuk user di Indonesia
+- ✅ **Data Residency** - Data tetap di dalam negeri, compliant dengan regulasi Indonesia
+- ✅ **Tier III Certified** - Uptime guarantee 99.99%
+- ✅ **Secure** - Physical security dan monitoring 24/7
+- ✅ **Local Support** - Tim support yang mengerti konteks bisnis lokal
 
-> **Tips:** Pilih region terdekat dengan target user kamu untuk latency optimal!
+> **Tips:** Dengan data center di Indonesia, kamu mendapat latency optimal untuk target user di Indonesia!
 
 ### 💳 Flexible Payment
 
@@ -604,7 +603,11 @@ Dalang.io menyediakan **Cloud VPS** yang menggabungkan kelebihan keduanya.
 
 ### Q: Di mana lokasi data center?
 
-**A:** Data center Dalang.io ada di Jakarta, Surabaya, Singapore, Tokyo, US, Frankfurt, dan London.
+**A:** Data center Dalang.io berlokasi di Indonesia:
+- **Jakarta** - Data Center Tier III
+- **Surabaya** - Data Center Tier III
+
+Kedua data center ini memberikan latency optimal (< 10ms) untuk user di Indonesia dan memastikan data residency compliant dengan regulasi Indonesia.
 
 ### Q: Bagaimana cara contact support?
 

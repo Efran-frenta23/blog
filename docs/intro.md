@@ -129,28 +129,25 @@ Dalang.io melayani berbagai sektor:
 
 ---
 
-## 🌍 Fitur Global & Enterprise
+## 🌍 Fitur Enterprise & Payment Global
 
-Dalang.io kini mendukung kebutuhan bisnis global dan enterprise dengan fitur-fitur berikut:
+Dalang.io mendukung kebutuhan bisnis enterprise dengan infrastruktur yang handal dan metode pembayaran yang fleksibel.
 
-### 🌐 Multi-Region Deployment
+### 🇮🇩 Infrastruktur Indonesia yang Handal
 
-**Deploy server di berbagai lokasi di seluruh dunia:**
+**Data Center berlokasi strategis di Indonesia:**
 
-- **Indonesia** - Jakarta, Surabaya (low latency untuk user lokal)
-- **Southeast Asia** - Singapore, Malaysia, Thailand
-- **Asia Pacific** - Japan, Australia, India
-- **Europe** - Frankfurt, London, Amsterdam
-- **Americas** - US (East & West Coast), Brazil
+- **Jakarta** - Data Center Tier III dengan konektivitas tinggi
+- **Surabaya** - Data Center Tier III untuk redundancy
 
-**Keuntungan Multi-Region:**
-- ✅ **Global Reach** - Deploy server dekat dengan user di mana pun mereka berada
-- ✅ **Redundancy** - Backup dan disaster recovery across regions
-- ✅ **Compliance** - Data residency compliant dengan regulasi lokal (GDPR, dll)
-- ✅ **Low Latency** - User experience lebih baik dengan server yang lebih dekat
-- ✅ **Load Balancing** - Distribusi traffic across multiple regions
+**Keuntungan Data Center Indonesia:**
+- ✅ **Low Latency** - < 10ms untuk user di Indonesia
+- ✅ **Data Residency** - Data tetap di dalam negeri, compliant dengan regulasi Indonesia
+- ✅ **Local Support** - Tim support yang mengerti konteks bisnis lokal
+- ✅ **Tier III Certified** - Uptime guarantee 99.99%
+- ✅ **Secure** - Physical security dan monitoring 24/7
 
-### 💳 International Payment
+### 💳 Payment Global & Online
 
 **Metode pembayaran dari seluruh dunia:**
 
@@ -158,8 +155,8 @@ Dalang.io kini mendukung kebutuhan bisnis global dan enterprise dengan fitur-fit
 - ✅ **Credit/Debit Card** - Visa, Mastercard, American Express, JCB
 - ✅ **PayPal** - Bayar dengan akun PayPal
 - ✅ **Wire Transfer** - Transfer bank internasional (SWIFT)
-- ✅ **Cryptocurrency** - Bitcoin, Ethereum, USDT (coming soon)
-- ✅ **IDR Transfer** - Transfer bank lokal Indonesia
+- ✅ **Cryptocurrency** - Bitcoin, Ethereum, USDT
+- ✅ **IDR Transfer** - Transfer bank lokal Indonesia (BCA, Mandiri, BNI, BRI)
 - ✅ **E-Wallet** - GoPay, OVO, Dana, ShopeePay
 
 **Multi-Currency Support:**
@@ -167,13 +164,13 @@ Dalang.io kini mendukung kebutuhan bisnis global dan enterprise dengan fitur-fit
 - 🇺🇸 **USD** - US Dollar
 - 🇪🇺 **EUR** - Euro
 - 🇸🇬 **SGD** - Singapore Dollar
-- Dan mata uang lainnya
 
-**Keuntungan International Payment:**
+**Keuntungan Payment Global:**
 - ✅ **No FX Hassle** - Bayar dalam mata uang lokal kamu
 - ✅ **Flexible** - Pilih metode pembayaran yang paling nyaman
 - ✅ **Secure** - Semua transaksi diproses dengan enkripsi tinggi
 - ✅ **Invoice** - Invoice resmi untuk keperluan accounting
+- ✅ **Instant Activation** - Payment otomatis, layanan langsung aktif
 
 ### 🏢 Enterprise Ready
 
@@ -217,25 +214,26 @@ Dalang.io kini mendukung kebutuhan bisnis global dan enterprise dengan fitur-fit
 | Aspek | Dalang.io | Provider Besar |
 |-------|-----------|----------------|
 | **Harga** | 84.5% lebih murah | Premium pricing |
-| **Lokasi Server** | Indonesia + Multi-region | Biasanya Singapore/US |
+| **Lokasi Server** | Indonesia (Jakarta & Surabaya) | Biasanya Singapore/US |
 | **Support** | Direct engineer access | Bot/automated response |
 | **Bahasa Support** | Bahasa Indonesia & English | English only |
 | **Payment** | IDR, USD, Transfer Lokal & International | USD, Credit Card |
 | **Latency (Indonesia)** | < 10ms | 50-150ms |
+| **Data Residency** | ✅ Compliant regulasi Indonesia | ⚠️ Tergantung region |
 | **Enterprise Ready** | ✅ Ya | ✅ Ya |
 
 ### 🎯 Kapan Memilih Dalang.io?
 
 ✅ **Pilih Dalang.io jika:**
 - Target user kamu di Indonesia
-- Butuh latency rendah untuk user lokal
+- Butuh latency rendah untuk user lokal (< 10ms)
 - Ingin biaya cloud yang lebih efisien
 - Prefer support dalam Bahasa Indonesia atau English
-- Butuh data residency di Indonesia
+- Butuh data residency di Indonesia (compliant regulasi)
 - Ingin konsultasi langsung dengan engineer
-- Butuh deployment multi-region
-- Perlu payment metode internasional
-- Mencari solusi enterprise-ready
+- Perlu payment metode internasional dan lokal
+- Mencari solusi enterprise-ready dengan SLA guarantee
+- Butuh support 24/7 yang responsif
 
 ❌ **Pertimbangkan provider lain jika:**
 - Sudah terikat kontrak dengan provider lain
