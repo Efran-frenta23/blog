@@ -1,8 +1,8 @@
 {
-  "label": "Tutorial - Basics",
+  "label": "Pengenalan Dalang.io",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Panduan singkat untuk mengenal Dalang.io — produk, layanan, tool, dan kebijakan yang berlaku. Cocok dibaca oleh karyawan baru sebelum masuk ke materi yang lebih teknis."
   }
 }

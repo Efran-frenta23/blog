@@ -79,7 +79,7 @@ Versi **Interim** (atau disebut juga versi non-LTS) adalah versi Ubuntu yang dir
 |-------|-----------|---------------|--------|---------------|
 | Ubuntu Server 24.04 LTS | Noble Numbat | April 2024 | ✅ Aktif (sampai 2029) | [Download](https://releases.ubuntu.com/noble/) |
 | Ubuntu Server 22.04 LTS | Jammy Jellyfish | April 2022 | ✅ Aktif (sampai 2027) | [Download](https://releases.ubuntu.com/jammy/) |
-| Ubuntu Server 20.04 LTS | Focal Fossa | April 2020 | ✅ Aktif (sampai 2025) | [Download](https://releases.ubuntu.com/focal/) |
+| Ubuntu Server 20.04 LTS | Focal Fossa | April 2020 | ⚠️ ESM* (standard support berakhir Mei 2025, ESM sampai 2030) | [Download](https://releases.ubuntu.com/focal/) |
 | Ubuntu Server 18.04 LTS | Bionic Beaver | April 2018 | ⚠️ ESM* (sampai 2028) | [Download](https://releases.ubuntu.com/bionic/) |
 | Ubuntu Server 16.04 LTS | Xenial Xerus | April 2016 | ❌ End of Life | [Download](https://releases.ubuntu.com/xenial/) |
 
@@ -89,7 +89,9 @@ Versi **Interim** (atau disebut juga versi non-LTS) adalah versi Ubuntu yang dir
 
 | Versi | Nama Kode | Tanggal Rilis | Status Support | Download Link |
 |-------|-----------|---------------|----------------|---------------|
-| Ubuntu Server 24.10 | Oracular Oriole | Oktober 2024 | ✅ Aktif (sampai Juli 2025) | [Download](https://releases.ubuntu.com/oracular/) |
+| Ubuntu Server 25.10 | Questing Quokka | Oktober 2025 | ✅ Aktif (sampai Juli 2026) | [Download](https://releases.ubuntu.com/questing/) |
+| Ubuntu Server 25.04 | Plucky Puffin | April 2025 | ❌ End of Life (Januari 2026) | [Download](https://releases.ubuntu.com/plucky/) |
+| Ubuntu Server 24.10 | Oracular Oriole | Oktober 2024 | ❌ End of Life | [Download](https://releases.ubuntu.com/oracular/) |
 | Ubuntu Server 23.10 | Mantic Minotaur | Oktober 2023 | ❌ End of Life | [Download](https://releases.ubuntu.com/mantic/) |
 | Ubuntu Server 23.04 | Lunar Lobster | April 2023 | ❌ End of Life | [Download](https://releases.ubuntu.com/lunar/) |
 | Ubuntu Server 22.10 | Kinetic Kudu | Oktober 2022 | ❌ End of Life | [Download](https://releases.ubuntu.com/kinetic/) |
@@ -306,11 +308,12 @@ Direct Download adalah link download langsung dari server resmi Ubuntu (`release
 - ✅ Download ukuran besar (butuh speed maksimal)
 
 **Daftar Mirror Populer:**
-- **Indonesia:** `kartolo.sby.datautama.net.id` (Surabaya), `mirror.telkomnet.id.id` (Jakarta)
+- **Indonesia:** `kartolo.sby.datautama.net.id` (Surabaya), `kebo.vlsm.org` (Jakarta), `buaya.klas.or.id`
 - **Singapore:** `mirror.nus.edu.sg` (National University of Singapore)
-- **Malaysia:** `mirror.seas.upenn.edu.my`
 - **Thailand:** `mirror.kku.ac.th` (Khon Kaen University)
 - **Australia:** `mirror.aarnet.edu.au` (AARNet)
+
+> **Tips:** Daftar mirror resmi lengkap bisa dicek langsung di [launchpad.net/ubuntu/+cdmirrors](https://launchpad.net/ubuntu/+cdmirrors). Prioritaskan mirror yang paling dekat dengan lokasimu untuk kecepatan terbaik.
 
 **Cara pakai Mirror:**
 1. Buka halaman mirror (misal: `mirror.nus.edu.sg/ubuntu-releases/`)
@@ -715,7 +718,7 @@ Installer akan memandu kamu melalui:
 
 ### Q: Berapa ukuran file ISO Ubuntu Server?
 
-**A:** Sekitar 2-3 GB untuk versi terbaru. Pastikan kamu punya koneksi internet yang cukup cepat dan stabil.
+**A:** Sekitar 2-3 GB untuk ISO "live-server" versi terbaru (24.04 LTS). Kalau ada varian "minimal", ukurannya lebih kecil. Pastikan koneksi internet cukup cepat dan stabil.
 
 ### Q: Berapa RAM minimal untuk Ubuntu Server?
 

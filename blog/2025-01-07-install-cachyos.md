@@ -739,9 +739,11 @@ sudo pacman -Syu
 **Penjelasan perintah:**
 - `sudo` - Jalankan sebagai administrator (root)
 - `pacman` - Package manager Arch Linux
-- `-S` - Sync package database
-- `-y` - Refresh database
-- `-u` - Upgrade semua package
+- `-S` - Sync / install package (ambil package dari repository)
+- `-y` - Refresh database package dari server
+- `-u` - Upgrade semua package yang sudah terinstall
+
+> Jadi `-Syu` artinya: refresh dulu daftar package terbaru dari server, lalu upgrade semua yang terinstall.
 
 3. **Masukkan password** saat diminta
 4. **Ketik 'y'** untuk konfirmasi update
@@ -826,7 +828,7 @@ yay -S nama-package
 
 **Solusi:**
 - ✅ Pastikan USB sudah terpasang dengan benar
-- ✅ Coba port USB lain (prefer USB 2.0 jika ada)
+- ✅ Coba port USB lain (kalau USB 3.0 bermasalah di BIOS lama, coba port USB 2.0)
 - ✅ Cek boot order di BIOS
 - ✅ Disable "Secure Boot" di BIOS
 - ✅ Pastikan flashdisk dibuat dengan benar (coba buat ulang)
@@ -1036,7 +1038,7 @@ Untuk panduan visual cara disable Secure Boot, tonton video ini:
 **A:** Tergantung laptop dan usage. CachyOS cukup efisien. Untuk hemat baterai, install TLP:
 ```bash
 sudo pacman -S tlp tlp-rdw
-sudo systemctl enable tlp
+sudo systemctl enable --now tlp
 ```
 
 ### Q: Apakah CachyOS support aplikasi Windows (.exe)?

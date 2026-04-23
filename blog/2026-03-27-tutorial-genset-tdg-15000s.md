@@ -6,6 +6,14 @@ title: Panduan Lengkap Diesel Engine F Series
 
 **Dokumentasi ini menjelaskan SEMUA isi manual book F Series Diesel Engine dengan bahasa yang mudah dipahami orang awam. Setiap gambar, setiap tabel, dan setiap instruksi dijelaskan secara detail.**
 
+:::warning Selalu rujuk ke manual resmi
+
+Dokumentasi ini adalah **panduan pendamping**, bukan pengganti manual book resmi dari pabrikan. Angka spesifik (kapasitas tangki, kapasitas oli, torque setting, interval maintenance) **harus divalidasi ulang dengan manual asli** sebelum dijadikan dasar operasional atau servis.
+
+Kalau ada angka di dokumen ini yang terlihat tidak konsisten antar-bagian, anggap manual asli sebagai sumber kebenaran.
+
+:::
+
 ---
 
 ## 📖 Daftar Isi
@@ -265,7 +273,7 @@ Forced air-cooling
 **Cara Kerja:**
 1. Engine punya kipas (fan) yang berputar
 2. Kipas meniupkan udara ke sirip-sirip pendingin
-3. Udara带走 panas dari engine
+3. Udara membawa panas dari engine
 4. Engine tetap dingin
 
 **Keuntungan:**
@@ -1111,7 +1119,7 @@ Halaman ini menjelaskan apa saja yang harus DIPERSIAPKAN sebelum menyalakan engi
 - Debu akan masuk ke engine = AUS CEPAT!
 
 **Jangan Operasi Tanpa Element:**
-- Engine akan吸入 debu langsung
+- Engine akan menghirup debu langsung
 - Dalam 1 jam, engine bisa rusak parah!
 - Piston dan silinder akan baret
 

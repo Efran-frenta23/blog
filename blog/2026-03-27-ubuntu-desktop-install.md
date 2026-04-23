@@ -212,7 +212,7 @@ Ubuntu tersedia dalam beberapa versi:
 **Versi LTS Terbaru:**
 - **Ubuntu 24.04 LTS (Noble Numbat)** - Rilis April 2024, didukung sampai 2029 ⭐
 - **Ubuntu 22.04 LTS (Jammy Jellyfish)** - Rilis April 2022, didukung sampai 2027
-- **Ubuntu 20.04 LTS (Focal Fossa)** - Rilis April 2020, didukung sampai 2025
+- **Ubuntu 20.04 LTS (Focal Fossa)** - Rilis April 2020, standard support berakhir Mei 2025 (ESM via Ubuntu Pro sampai 2030)
 
 > **Rekomendasi:** Pilih **Ubuntu 24.04 LTS** untuk kebanyakan user. Stabil dan didukung sampai 2029!
 
@@ -226,9 +226,10 @@ Versi **Interim** adalah versi Ubuntu yang dirilis di antara versi LTS.
 - ⚠️ **Untuk enthusiast dan developer**
 
 **Versi Interim Terbaru:**
-- Ubuntu 24.10 (Oracular Oriole) - Rilis Oktober 2024
+- Ubuntu 25.10 (Questing Quokka) - Rilis Oktober 2025
+- Ubuntu 25.04 (Plucky Puffin) - Rilis April 2025 (EOL Januari 2026)
+- Ubuntu 24.10 (Oracular Oriole) - Sudah EOL
 - Ubuntu 23.10 (Mantic Minotaur) - Sudah EOL
-- Ubuntu 23.04 (Lunar Lobster) - Sudah EOL
 
 > **Kapan memilih Interim?**
 > - Kamu developer yang butuh fitur terbaru
@@ -238,14 +239,14 @@ Versi **Interim** adalah versi Ubuntu yang dirilis di antara versi LTS.
 ### Proses Download
 
 1. **Klik tombol "Download"** untuk versi yang kamu pilih
-2. **Download akan otomatis dimulai** (file berukuran 5-6 GB)
+2. **Download akan otomatis dimulai** (file ISO Desktop sekitar 4-5 GB)
 3. **Tunggu hingga selesai** - Bisa 30 menit - 2 jam tergantung koneksi
 4. **Simpan di lokasi yang mudah ditemukan** (misal: Downloads folder)
 
 > **Tips Download:**
 > - Gunakan koneksi WiFi atau kabel LAN yang stabil
 > - Download bisa di-pause dan resume jika terputus
-> - File ISO Ubuntu berukuran 5-6 GB, pastikan ada space cukup
+> - File ISO Desktop sekitar 4-5 GB, pastikan ada space cukup
 
 ### Opsi Download yang Tersedia
 
@@ -352,7 +353,7 @@ sha256sum ~/Downloads/ubuntu-24.04-desktop-amd64.iso
    - **Target system:** UEFI (non CSM)
 5. **Klik "START"**
 6. **Pilih mode:** "Write in ISO Image mode (Recommended)"
-7. **Tunggu proses selesai** (10-20 menit)
+7. **Tunggu proses selesai** (sekitar 5-15 menit, tergantung kecepatan flashdisk)
 8. **Klik "CLOSE"** setelah selesai
 
 > **Peringatan:** Semua data di flashdisk akan dihapus! Backup dulu jika ada data penting.
@@ -867,8 +868,17 @@ Ubuntu biasanya sudah include driver yang diperlukan. Tapi untuk hardware terten
 6. **Restart** setelah selesai
 
 **Driver NVIDIA (Manual):**
+
+Cek versi driver yang tersedia dulu:
 ```bash
-sudo apt install nvidia-driver-535
+ubuntu-drivers devices
+```
+
+Lalu install versi yang direkomendasikan (contoh, ganti angka versi sesuai output di atas):
+```bash
+sudo ubuntu-drivers install
+# atau install versi spesifik:
+sudo apt install nvidia-driver-550
 sudo reboot
 ```
 
@@ -1212,7 +1222,7 @@ sudo apt install stacer
 **A:**
 - **Minimal:** 25 GB
 - **Rekomendasi:** 50 GB atau lebih
-- **Untuk长期使用:** 100 GB atau lebih
+- **Untuk penggunaan jangka panjang:** 100 GB atau lebih
 
 ### Q: Apakah Ubuntu punya Microsoft Office?
 
